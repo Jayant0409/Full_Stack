@@ -1,0 +1,27 @@
+
+        /* The specificity of this selector is 1 */
+        h1{
+            color: aqua;
+        }
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color:yellow !important;
+        }
+        /* The specificity of this selector is 10 */
+        .red
+        {
+            color: red;
+        }
+        /* The specificity of this selector is 10 */
+        .purple{
+            color:purple;
+        }
+        /* This is the example of attribute selector. 
+         The specificity of this selector is 10 */
+        [data-x=a]{
+            background-color: blue;
+        }
+        /* The specificity of this selector is 1+10+10+10+10 */
+        a.harryclass.rohanclass[href]:hover{
+            color: blueviolet;
+        }

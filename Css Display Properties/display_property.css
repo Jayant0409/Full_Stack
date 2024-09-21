@@ -1,0 +1,22 @@
+
+        .{
+            margin: 0px;
+        padding: 0px;
+        }
+        .box{
+         box-sizing: border-box;
+            border: 20px solid blue;
+            display: inline-block;
+            width: 344px;
+            margin: 34px;
+            padding: 34px;
+            display: flex;
+            justify-content: center;
+        }
+        .box1{
+            /* display: none; */
+            /* visibility: hidden; */
+            display: flex;
+            justify-content: center;
+        }
+

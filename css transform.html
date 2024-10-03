@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css transform</title>
+    <style>
+
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* transform:rotateX(60deg) ; */
+            /* transform: rotateY(30deg); */
+            /* transform: scale(1.5); */
+            /* transform: skew(34deg);    not in Z-axis */
+            /* transform: translate(90%) skew(20deg) translateY(90%) ; */
+         transform-origin: 1% 0%;         /*rotate about the point which we have fixed */
+         transform: rotate(30deg);
+         
+        }
+
+        .container{
+            height:80vh;
+            width: 100vw;
+            border: 2px solid purple;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box</div>
+    </div>
+
+    
+</body>
+</html>
